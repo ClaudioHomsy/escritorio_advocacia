@@ -1,53 +1,53 @@
-# 💰 Análise Financeira - Banco (Power BI)
+# ⚖️ Escritório de Advocacia - Power BI
 
-Este projeto foi desenvolvido no **Power BI** com o objetivo de realizar uma **análise financeira bancária**, permitindo acompanhar transações, clientes, produtos e valores movimentados de forma clara e interativa.  
+Este projeto foi desenvolvido no **Power BI** com o objetivo de analisar os **processos jurídicos** de um escritório de advocacia, fornecendo visibilidade sobre volume de processos, status, valores e desempenho por advogados e comarcas.  
 
 ---
 
 ## 🔎 Objetivo
-Fornecer insights sobre:  
-- Quantidade de **clientes ativos**.  
-- Valor total movimentado.  
-- **Distribuição de transações** por tipo e canal.  
-- Análise de **produtos bancários** (Conta Corrente, Poupança, Cartão de Crédito).  
-- Evolução do **saldo médio por dia**.  
-- Valor movimentado por **agência**.  
+Fornecer uma visão clara sobre:  
+- Total de processos ativos e encerrados.  
+- Valor total das causas acompanhadas.  
+- Distribuição de processos por **advogado responsável**.  
+- Quantidade de processos por **comarca e status**.  
+- Análise de processos por **tipo de ação** (penal, previdenciário, cível, trabalhista, família, tributário).  
+- Evolução mensal de processos ao longo do tempo.  
+- Quantidade de clientes por comarca.  
 
 ---
 
 ## 📊 Principais Indicadores
-- 👥 **Clientes Ativos:** 5  
-- 💵 **Valor Total Movimentado:** 605 Mil  
-- 🔄 **Tipos de Transações:** Depósito, Saque, Pagamento, Transferência  
-- 🏦 **Canais de Transação:** App, Agência, Internet Banking, Caixa Eletrônico  
+- 📂 **Total de Processos:** 170  
+- ✅ **Processos Ativos:** 94  
+- ❌ **Processos Encerrados:** 76  
+- 💰 **Valor Total das Causas:** R$ 396,44 Mi  
 
 ---
 
 ## 📌 Recursos do Dashboard
-- **Filtros Dinâmicos:** Data, agência, cliente e produto.  
+- **Filtros Dinâmicos:** Status do processo (Ativo, Encerrado) e advogado responsável.  
 - **Gráficos e Visualizações:**  
-  - **Colunas:** Quantidade de transações por tipo.  
-  - **Pizza:** Quantidade de produtos por categoria.  
-  - **Colunas horizontais:** Transações por canal.  
-  - **Linha:** Saldo médio por dia.  
-  - **Colunas verticais:** Valor total movimentado por agência.  
-  - **Tabela:** Registro detalhado de transações (data, tipo, produto, canal e agência).  
+  - **Colunas:** Processos por advogado.  
+  - **Barras empilhadas:** Processos por comarca e status.  
+  - **Barras horizontais:** Processos por tipo de ação.  
+  - **Linha temporal:** Evolução de processos por ano e mês.  
+  - **Barras:** Clientes por comarca.  
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas
 - **Power BI Desktop**  
 - Modelagem de dados e medidas em **DAX**  
-- Visualizações interativas e responsivas  
+- Segmentações interativas para análise por filtros  
 
 ---
 
 ## 🚀 Benefícios
-- Acompanhamento detalhado da **movimentação financeira dos clientes**.  
-- Identificação de **canais mais utilizados** para transações.  
-- Comparativo de **produtos bancários** mais movimentados.  
-- Apoio à **gestão de clientes e operações financeiras**.  
+- Monitoramento em tempo real dos **processos jurídicos do escritório**.  
+- Visibilidade da carga de trabalho de cada **advogado responsável**.  
+- Identificação das **comarcas com maior volume de processos**.  
+- Apoio estratégico para a **gestão de causas e clientes**.  
 
 ---
 
-📌 Projeto desenvolvido para fins de **análise financeira bancária** e **tomada de decisão estratégica**.
+📌 Projeto desenvolvido para fins de **gestão de processos jurídicos** e **suporte à tomada de decisão no escritório de advocacia**.
